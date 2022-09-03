@@ -1,20 +1,22 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+@use 'styles';
 
-.App {
-  width: 100%;
-  height: 100vh;
-  font-family: 'Poppins', sans-serif;
-  background-color: bisque;
-  color: #222;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+// * {
+//   padding: 0;
+//   margin: 0;
+//   box-sizing: border-box;
+// }
 
-  .caption {
-    font-size: 3rem;
-  }
-}
+// .App {
+//   width: 100%;
+//   height: 100vh;
+//   font-family: 'Poppins', sans-serif;
+//   background-color: bisque;
+//   color: #222;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+
+//   .caption {
+//     font-size: 3rem;
+//   }
+// }

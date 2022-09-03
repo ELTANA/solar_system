@@ -1,0 +1,25 @@
+// .section {
+//   width: 100%;
+//   height: 100vh;
+// }
+
+section {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  // position: relative;
+  width: 100%;
+  height: 100vh;
+  // margin-block: 10%;
+  padding-block: 15%;
+  padding-inline: 10%;
+  // object-fit: cover;
+  // background-attachment: fixed;
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 500ms ease-in;
+}
